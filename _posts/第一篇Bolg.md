@@ -2,8 +2,8 @@
 layout:     post
 title:      半个小时前写的博客没保存，电脑卡了。。。。
 subtitle:   就这样吧，任务完成的还不错，明天学习前后端的交互，2019.2.6
-date:       2017-02-06
-author:     BY
+date:       2019-02-06
+author:     jiale
 header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:
