@@ -5,9 +5,44 @@
     <description>Every failure is leading towards success.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 06 Feb 2019 16:02:45 +0800</pubDate>
-    <lastBuildDate>Wed, 06 Feb 2019 16:02:45 +0800</lastBuildDate>
+    <pubDate>Wed, 06 Feb 2019 17:52:32 +0800</pubDate>
+    <lastBuildDate>Wed, 06 Feb 2019 17:52:32 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>关于博客</title>
+        <description>&lt;h5 id=&quot;过程记录&quot;&gt;过程记录&lt;/h5&gt;
+&lt;p&gt;先将远程仓库clone到本地，进入仓库目录下&lt;br /&gt;
+	添加远程连接：  git remote add origin 仓库地址&lt;br /&gt;
+	本地和远程关联：git branch –set-upstream-to=origin/master master&lt;/p&gt;
+
+&lt;p&gt;然后安装好jekyll和依赖包后，进入仓库目录。执行命令 jekyll server，接着在文件夹_posts下创建markdown文件，使用MarkdownPad打开，使用markdown语言编辑博客。之前不知道关于这个文件名的格式应该是“xxxx-xx-xx-名称”，也就是“年-月-日-名称”。&lt;/p&gt;
+
+&lt;p&gt;编辑完成后，在本地使用网址localhost:4000查看的，然后发现地址是这样的localhost:4000/jekyll/update/2019/02/05/。进入对应的文件夹发现发现最里面是一个index.html。稍微有点理解jekyll了，自动分析保存的的markdown文件，然后生成对应的html页面。&lt;br /&gt;
+还有很多不明白的，但是最基本的写博客已经可以进行了.慢慢来，每天进步一点点。&lt;/p&gt;
+
+&lt;p&gt;在git里使用	git add命令的时候，告诉我paths are ignored.最后使用&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git add -A 就可以了。  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2019.2.6 17：45&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;交流Email：1575996446@qq.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 06 Feb 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/02/06/startbolg/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/02/06/startbolg/</guid>
+        
+        <category>Blog</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>半个小时前写的博客没保存，电脑卡了。。。。</title>
