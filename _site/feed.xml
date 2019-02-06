@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BY Blog</title>
+    <description>Every failure is leading towards success.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 06 Feb 2019 16:02:45 +0800</pubDate>
+    <lastBuildDate>Wed, 06 Feb 2019 16:02:45 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>半个小时前写的博客没保存，电脑卡了。。。。</title>
+        <description>&lt;h3 id=&quot;这里是正文啥也没有啦&quot;&gt;这里是正文，，啥也没有啦&lt;/h3&gt;
+</description>
+        <pubDate>Wed, 06 Feb 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/02/06/Bolg/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/02/06/Bolg/</guid>
+        
+        <category>Blog</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to</title>
+        <description>&lt;h3 id=&quot;半个小时前写的博客没保存电脑卡了&quot;&gt;半个小时前写的博客没保存，电脑卡了。。。。&lt;/h3&gt;
+&lt;p&gt;就这样吧，任务完成的还不错，明天学习前后端的交互，2019.2.6&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Feb 2019 22:04:39 +0800</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/02/05/welcome-to/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/02/05/welcome-to/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

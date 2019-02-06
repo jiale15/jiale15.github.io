@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>睡觉</title>
+ <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7c4da0d50f9537627083116953c7acfc";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+
+<h2 align="center">晚安世界</h2>
+ 
+ <form action="Login" method="post">
+<table style="width:300px;height:50px" align="center">
+<tbody>
+<tr>
+最美的睡眠，开始啦
+</tr>
+
+</tbody>
+</table>
+</form>
+
+---
+
+layout: page
+
+description: "once and once again try"
+
+---
+
+
+
+{% for post in paginator.posts %}
+
+<div class="post-preview">
+
+    <a href="{{ post.url | prepend: site.baseurl }}">
+
+        <h2 class="post-title">
+
+            {{ post.title }}
+
+        </h2>
+
+        {% if post.subtitle %}
+
+        <h3 class="post-subtitle">
+
+            {{ post.subtitle }}晚安，2019/2/6 2：58.
+
+        </h3>
+
+        {% endif %}
+
+        <div class="post-content-preview">
+
+            {{ post.content | strip_html | truncate:200 }}
+
+        </div>
+
+    </a>
+
+    <p class="post-meta">
+
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+
+    </p>
+
+</div>
+
+<hr>
+
+{% endfor %}
+
+
+
+<!-- Pager -->
+
+{% if paginator.total_pages > 1 %}
+
+<ul class="pager">
+
+    {% if paginator.previous_page %}
+
+    <li class="previous">
+
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+
+    </li>
+
+    {% endif %}
+
+    {% if paginator.next_page %}
+
+    <li class="next">
+
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+
+    </li>
+
+    {% endif %}
+
+</ul>
+</body>
+</html>
+{% endif %}
