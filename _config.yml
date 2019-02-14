@@ -1,6 +1,6 @@
 # Site settings
-title: BY Blog
-SEOTitle: 佳乐的博客 | BY Blog
+title: Caleb Blog
+SEOTitle: 佳乐的博客 | Caleb Blog
 header-img: img/post-bg-desk.jpg
 email: 1575996446@qq.com
 description: "Every failure is leading towards success."
@@ -101,13 +101,13 @@ friends: [
         title: "dalao",
         href: #"http://zhengwuyang.com"
     },{
-        title: "简书·BY",
+        title: "简书·",
         href: #"http://www.jianshu.com/u/e71990ada2fd"
     },{
-        title: "Meizu",
+        title: "",
         href: #"https://apple.com"
     },{
-        title: "Meizu Developer",
+        title: "",
         href: #"https://developer.apple.com/"
     }
 ]
