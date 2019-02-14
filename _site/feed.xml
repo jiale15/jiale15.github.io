@@ -5,8 +5,8 @@
     <description>Every failure is leading towards success.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 14 Feb 2019 23:11:11 +0800</pubDate>
-    <lastBuildDate>Thu, 14 Feb 2019 23:11:11 +0800</lastBuildDate>
+    <pubDate>Fri, 15 Feb 2019 01:17:16 +0800</pubDate>
+    <lastBuildDate>Fri, 15 Feb 2019 01:17:16 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -65,30 +65,6 @@
         <pubDate>Tue, 05 Feb 2019 22:04:39 +0800</pubDate>
         <link>http://localhost:4000/jekyll/update/2019/02/05/welcome-to/</link>
         <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/02/05/welcome-to/</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>记录</title>
-        <description>&lt;p&gt;强迫自己输出一千字
-###html、css
-浏览了html的所有标签，对网页有了更深的认识：&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;html用与结构，css用于表现，js用于行为 关于css学习的思维导图； ![css-learn1](/img/404-bg.png)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Wed, 14 Dec 2016 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/jekyll/update/2016/12/14/dailygo/</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/12/14/dailygo/</guid>
-        
-        <category>css</category>
-        
-        <category>定时器</category>
         
         
         <category>jekyll</category>
