@@ -26,8 +26,7 @@ tags:
 ![css-learn1](/img/css-learn1.png)
 
 
-###计算机体系结构
-
+### 计算机体系结构
 
 第二章：计算机指令集结构(出来混总是要还的)
 
@@ -74,11 +73,7 @@ RM(register-memory)和RR(register-register)，关于RR结构，也称为load-sto
 		类型：a.指令中操作码指定 b.数据中加标志符(动态检测，所以少见)
 		大小：字节8位、半字16位、字32位、双字64位
 
-
-
-###英语
-
-
+### 英语
 读了几页《温夫人的扇子》"LADY WINDERMERE'S FAN"，学习和复习了一些单词短语：
 		
 	compliment 恭维
