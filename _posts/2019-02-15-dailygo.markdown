@@ -1,0 +1,115 @@
+---
+layout:     post
+title:      记录
+subtitle:   今日所学记录
+date:       2019-02-15
+author:     Jiale
+header-img: img/post-bg-ios9-web.jpg
+categories: jekyll update
+catalog: 	 true
+tags:
+    - html css js
+    - 英语
+---
+强迫自己输出一千字,昨天的字数好像不到一千。。。
+
+### 英语
+接着读《温夫人的扇子》 *LADY WINDERMERE'S FAN*，学习和复习了一些单词短语：
+
+	console 安慰			以前只知道有控制台的意思
+	vile 下流的、肮脏的 	竟然还有人名“瓦伊尔”，有人会起这名么
+	stir 走动、搅拌		
+	mercenary 唯利是图的，同时是名词“唯利是图者、雇佣兵”
+	dreadful 糟透的
+	hard and fast 死板的、严格的
+	affectation 冒充
+	Duchess 公爵夫人、女公爵
+	ball 舞会				涨知识了。。
+	furious 狂怒的
+	scandal 丑闻、流言蜚语
+	elbow 推挤
+	nag 唠叨
+	invariably 总是
+	odd trick 决胜负的最后一墩牌
+	depraved 堕落的
+	trivial 不正经的、不重要的
+	concession 让步
+	wits 智慧    as a concession to my poor wits 请体谅我生性愚钝
+	intelligible 可理解的
+	insincere 不诚实的
+	gown 礼服
+	horrid 可怕的
+	disreputable 声名狼藉的
+	trial 试验
+	infatuated 迷恋
+	inadmissible 不被允许的
+	refinement 文雅、细腻
+	distressed 难过的 
+看了四页，有点慢，单词认识的越多，阅读应该会更快吧。
+
+### html、css、js
+学习实现网页游戏飞机大战，[在这里](https://jiale15.github.io/planewar)
+
+
+
+结构html:
+
+
+Head标签里引用
+`css:<link rel="stylesheet" type="text/css" href="css/mycss.css">`
+	
+Body标签最后引用js:
+`<script type="text/javascript">src="js/myjs.js"</script>`
+	
+Body 里一个contentdiv设定整体画面大小，所有动作、显示都在这个里面
+	
+Startdiv开始画面，一个按钮，点击按钮，执行a:begin()函数，在js中完成这个函数
+	
+Maindiv 主界面内部scorediv分数显示界面：`<label>分数：</label>
+										<label id="label">0</label>`
+	
+suspenddiv  暂停界面：三个按钮 继续，重新、回主页
+	enddiv 结束界面 `<p class="plantext">分数</p>
+		   		<p id="plantscore">0</p>
+		   		<button onclick="go_on()">go-on</button>`
+
+表现css:
+	一个通配符选择器，页面初始化 *{margin:0;	padding:0; }
+	#contentdiv   id选择器
+	#startdiv   width: 320px; 568px;  改成300 500
+	button{outline: none;}
+#startdiv button 设定startdiv里按钮的样式
+#maindiv
+#maindiv img
+#scorediv两个，下面的字体小一点
+#scorediv
+#suspenddiv
+#suspenddiv button
+#enddiv
+.plantext 结束时的分数样式  类选择器
+#planscore
+#enddiv div
+#enddiv div button
+
+
+行为js:
+	
+先获得界面
+Maindiv   startdiv  scorediv   suspenddiv   enddiv
+
+获得分数界面var scorelabel=document.getElementById("label");
+
+获得游戏结束后分数统计界面var planscore=document.getElementById("planscore");
+	
+开始游戏按钮点击事件function begin()里面的set=setInterval(start,20);//调用开始函数start()
+
+然后是start()函数
+	创建敌方飞机,移动敌方飞机,如果敌机超出边界,删除敌机,当敌机死亡标记为true时，经过一段时间后清除敌机,创建子弹,移动子弹,如果子弹超出边界,删除子弹,碰撞判断。
+
+js里的代码有点多，还没搞清楚，虽然注释挺多。
+
+今天没有学习计算机体系结构，提醒自己明天不要忘了，早睡早起好习惯，加油。
+
+"A cheerful heart is a good medicine,but a downcast spirit dries up the bones.--PROVERBS 17:22"
+
+“喜乐的心，乃是良药；忧伤的灵，使骨枯干。箴17：22”
