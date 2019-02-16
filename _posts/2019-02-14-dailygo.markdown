@@ -61,12 +61,14 @@ RM(register-memory)和RR(register-register)，关于RR结构，也称为load-sto
 		CISC Complex Instruction Set Computer复杂指令集计算机：指令功能复杂->控制器硬件复杂，不利于流水线
 		RISC Reduced Instruction Set Computer精简指令集计算机：指令少而简单、load-store结构、流水线
 
-控制指令
+&nbsp;控制指令
 
 	跳转
 	分支（有条件）（改变控制流的大部分指令）：条件三种实现：条件码、条件寄存器、比较与分支
 	调用/返回（除改变控制流外，可能要保存机器状态）
-转移目标地址的表示常用偏移量加程序计数器PC。（PC相对寻址）
+
+
+&emsp;转移目标地址的表示常用偏移量加程序计数器PC。（PC相对寻址）
 
 2.4操作数的类型和大小
 		
