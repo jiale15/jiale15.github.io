@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      试试直接push post
-subtitle:   今日所学记录
+title:      试试直接push _posts
+subtitle:   Bolg
 date:       2019-02-17
 author:     Jiale
 header-img: img/post-bg-ios9-web.jpg
 categories: jekyll update
 catalog: 	 true
 tags:
-    - 试试直接push post
+    - Bolg
 ---
-啥也没有
+&emsp;&emsp;可以成功，也就是说本地不开jekyll服务写一个markdown直接push也是可以的。本地安装Jekyll的目的应该是在本地查看效果吧，直接在网页上查看会有几分钟的延迟，如果不需要频繁改动的话，没有必要安装Jekyll。
