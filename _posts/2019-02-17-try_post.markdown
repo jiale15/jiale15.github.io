@@ -1,0 +1,13 @@
+---
+layout:     post
+title:      试试直接push post
+subtitle:   今日所学记录
+date:       2019-02-17
+author:     Jiale
+header-img: img/post-bg-ios9-web.jpg
+categories: jekyll update
+catalog: 	 true
+tags:
+    - 试试直接push post
+---
+啥也没有
